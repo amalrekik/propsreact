@@ -12,14 +12,14 @@ export default function Profil (props) {
         <img src="./photo/photoamal.jpg" alt='im' width="200px"/>
         <p style={styeObject1}>
             Je suis <b>{props.nm}</b> , <b>{props.bio}</b> 
-            spécialisée en concéption mécanique des articles statiques (articles de sport, déco...)
+            spécialisée en conception mécanique des articles statiques (articles de sport, déco...)
             durant 7 ans, dans notre société familliale de construction métallique "TWEMMAN".
             J'ai pris mon diplome de l'école nationale des ingénieurs de sfax avec une mention "trés bien". 
        </p>
         </div>
 
         <button style={styeBtn} onClick={()=>props.al(`Hello ${props.nm}`)}>
-          ClickMe
+          Submit
         </button>
         </>
       );
